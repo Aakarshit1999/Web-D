@@ -10,7 +10,7 @@ User.prototype.getFirstname = function () {
   console.log(`Your firstname is : ${this.firstName}`);
 };
 
-var hitesh = new User("hitesh", 2);
+var hitesh = new User("Aakarshit", 2);
 hitesh.getCourseCount();
 
 if (hitesh.hasOwnProperty("firstName")) {
@@ -19,7 +19,7 @@ if (hitesh.hasOwnProperty("firstName")) {
 
 console.log(hitesh);
 
-var sam = new User("Sam", 1);
+var sam = new User("Nishant", 1);
 sam.getCourseCount();
 sam.getFirstname();
 console.log(sam);
