@@ -10,16 +10,16 @@ var User = function (firstName, courseCount) {
     console.log(`Your firstname is : ${this.firstName}`);
   };
   
-  var hitesh = new User("Aakarshit", 2);
-  hitesh.getCourseCount();
+  var Aakarshit = new User("Aakarshit", 2);
+  Aakarshit.getCourseCount();
   
-  if (hitesh.hasOwnProperty("firstName")) {
-    hitesh.getFirstname();
+  if (Aakarshit.hasOwnProperty("firstName")) {
+    Aakarshit.getFirstname();
   }
   
-  console.log(hitesh);
+  console.log(Aakarshit);
   
-  var sam = new User("Nishant", 1);
-  sam.getCourseCount();
-  sam.getFirstname();
-  console.log(sam);
+  var Nishant= new User("Nishant", 1);
+  Nishant.getCourseCount();
+  Nishant.getFirstname();
+  console.log(Nishant);
