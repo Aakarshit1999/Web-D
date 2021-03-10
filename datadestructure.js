@@ -2,7 +2,7 @@
 // The only thing to remember is that the name of objects remain same while destructuring using objects whereas 
 // it is not necessary to do that in array as they work in a different way but it is recommended to do the same everywhere
 
-const user = ["hitesh", 3, "admin"];
+const user = ["Aakarshit", 3, "admin"];
 var role = user[2];
 var name = user[0];
 
@@ -11,7 +11,7 @@ var [name, courseCount, role] = user;
 console.log(role);
 
 const MyUser = {
-  Name: "hitesh",
+  Name: "Aakarshit",
   CourseCount: 5,
   Role: "admin",
 };
